@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#15191b" />
+    <meta
+      name="description"
+      content="Academic planner — Ibrahim Olawale, web designer, web developer, and brand designer in Lagos."
+    />
+    <title>Academic planner | Ibrahim Olawale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Work+Sans:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <script src="js/main.js" defer></script>
+    <script src="js/portfolio-core.js" defer></script>
+    <script src="js/planner.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header" id="top">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="Ibrahim Olawale — homepage">
+          <span class="brand-mark" aria-hidden="true">
+            IO
+            <span class="brand-dot">.</span>
+          </span>
+          <span class="brand-name">
+            Ibrahim Olawale
+            <small>DESIGN / DEVELOPMENT</small>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          aria-label="Open navigation menu"
+          type="button"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li>
+              <a class="active" aria-current="page" href="planner.html">Planner</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a class="button button-nav" href="contact.html">Work with me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero hero-background planner-background">
+        <div class="container hero-background-inner">
+          <div class="hero-content">
+            <h1>
+              Make room for
+              <br />
+              <em>what’s next.</em>
+            </h1>
+            <p class="hero-description">
+              A little structure for a busy learning journey. Organise coursework, track
+              deadlines, and celebrate progress.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container content-section">
+        <div class="planner-stats" role="group" aria-label="Task summary">
+          <div>
+            <strong id="total-count">0</strong>
+            <span>Total tasks</span>
+          </div>
+          <div>
+            <strong id="open-count">0</strong>
+            <span>Still to do</span>
+          </div>
+          <div>
+            <strong id="done-count">0</strong>
+            <span>Completed</span>
+          </div>
+        </div>
+        <div class="planner-layout">
+          <aside class="form-panel" aria-labelledby="add-task-title">
+            <h2 id="add-task-title">
+              Add a
+              <em>task.</em>
+            </h2>
+            <form id="task-form">
+              <div class="field">
+                <label for="task-title">What needs doing?</label>
+                <input
+                  type="text"
+                  id="task-title"
+                  name="title"
+                  required
+                  maxlength="180"
+                  placeholder="e.g. Review JavaScript functions"
+                />
+              </div>
+              <div class="field">
+                <label for="task-course">Course name or code</label>
+                <input
+                  type="text"
+                  id="task-course"
+                  name="course"
+                  required
+                  maxlength="100"
+                  placeholder="e.g. COS 106"
+                />
+              </div>
+              <div class="field">
+                <label for="task-due">Due date</label>
+                <input
+                  id="task-due"
+                  name="due"
+                  type="date"
+                  required
+                  min="0001-01-01"
+                  max="9999-12-31"
+                />
+              </div>
+              <p id="task-error" class="field-error" role="alert"></p>
+              <button class="button button-dark" type="submit">
+                Add task
+                <span aria-hidden="true">＋</span>
+              </button>
+            </form>
+            <p class="storage-note" id="storage-notice"></p>
+          </aside>
+          <div class="task-panel">
+            <div class="task-panel-heading">
+              <h2>
+                Your
+                <em>coursework.</em>
+              </h2>
+              <span class="muted">Tick to complete</span>
+            </div>
+            <ul id="task-list" class="task-list" aria-label="Coursework tasks"></ul>
+            <div id="empty-tasks" class="empty-state" hidden>
+              <span aria-hidden="true">✓</span>
+              <h3>A clear slate.</h3>
+              <p>No tasks here. Add your next piece of coursework to get started.</p>
+            </div>
+            <p id="task-status" class="sr-only" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+        <aside class="planner-guide" aria-labelledby="planner-guide-title">
+          <h2 id="planner-guide-title">How it works</h2>
+          <ol>
+            <li>
+              <span>
+                <strong>Add your coursework.</strong>
+                Enter a task, course name or code, and due date. Select
+                <strong>Add task</strong>
+                to place it at the top of your list.
+              </span>
+            </li>
+            <li>
+              <span>
+                <strong>Track your progress.</strong>
+                Tick the checkbox beside a task to mark it complete. Untick it to reopen
+                the task.
+              </span>
+            </li>
+            <li>
+              <span>
+                <strong>Keep your list up to date.</strong>
+                Select
+                <strong>Delete</strong>
+                to remove a task you no longer need.
+              </span>
+            </li>
+          </ol>
+          <p>Tasks are saved in this browser when browser storage is available.</p>
+        </aside>
+        <noscript>
+          <p class="notice notice-warning">
+            Please enable JavaScript to use the task planner.
+          </p>
+        </noscript>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-intro">
+          <a href="index.html" class="footer-brand">
+            IO
+            <span>.</span>
+            <small>Ibrahim Olawale</small>
+          </a>
+          <p>
+            Web design, web development, and brand identities. Thoughtful ideas, brought
+            to life.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/olawaleibrahim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+            <a
+              href="https://www.behance.net/olawale_ib"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Behance ↗
+            </a>
+            <a
+              href="https://github.com/Olawaleib21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Academic Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Selected work</h3>
+          <ul>
+            <li><a href="projects.html#protenconnect">ProtenConnect</a></li>
+            <li><a href="projects.html#keed">Keed</a></li>
+            <li><a href="projects.html#prodan-fx">Prodan FX</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Let's connect</h3>
+          <p>Lagos, Nigeria</p>
+          <a class="footer-contact" href="mailto:olawale_ib21@yahoo.com">
+            olawale_ib21@yahoo.com
+          </a>
+          <p>Have a project or collaboration in mind? I'd love to hear about it.</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>
+          ©
+          <span id="year">2026</span>
+          Ibrahim Olawale. All rights reserved.
+        </small>
+        <small>COS 106 · Miva Open University</small>
+      </div>
+    </footer>
+  </body>
+</html>

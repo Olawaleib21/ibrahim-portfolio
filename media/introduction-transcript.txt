@@ -1,0 +1,9 @@
+Hi, my name is Olawale Ibrahim, a student of Miva Open University. I'm currently studying my bachelor's degree in Software Engineering.
+
+My journey began in design. Now I'm building the technical skills to turn creative ideas into useful software.
+
+This portfolio brings together my professional experience and what I'm learning in COS 106, Introduction to Web Technology. I've used HTML, CSS, and JavaScript to create a responsive website with a project showcase, an interactive academic planner, and contact form validation.
+
+My featured projects include ProtenConnect, an applicant tracking system that I'm building, alongside Keed and Prodan FX brand identity projects.
+
+Through my study, I'm learning to connect thoughtful design into practical experience. Thank you for visiting my portfolio and being part of my learning journey.

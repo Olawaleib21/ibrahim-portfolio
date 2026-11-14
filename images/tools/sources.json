@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "coreldraw",
+    "source": "https://thesvg.org/icons/coreldraw/default.svg",
+    "bytes": 1001,
+    "title": "CorelDRAW",
+    "license": "CC0-1.0",
+    "brand_url": "https://www.coreldraw.com/en/learn/webinars/ebook-embroidery"
+  },
+  {
+    "slug": "photoshop",
+    "source": "https://thesvg.org/icons/photoshop/default.svg",
+    "bytes": 4035,
+    "title": "Photoshop",
+    "license": "MIT",
+    "brand_url": "https://www.adobe.com/products/photoshop"
+  },
+  {
+    "slug": "illustrator",
+    "source": "https://thesvg.org/icons/illustrator/default.svg",
+    "bytes": 2625,
+    "title": "Illustrator",
+    "license": "MIT",
+    "brand_url": "https://www.adobe.com/products/illustrator"
+  },
+  {
+    "slug": "indesign",
+    "source": "https://thesvg.org/icons/indesign/default.svg",
+    "bytes": 2389,
+    "title": "InDesign",
+    "license": "MIT",
+    "brand_url": "https://www.adobe.com/products/indesign"
+  },
+  {
+    "slug": "capcut",
+    "source": "https://thesvg.org/icons/capcut/default.svg",
+    "bytes": 474,
+    "title": "CapCut",
+    "license": "MIT",
+    "brand_url": "https://capcut.com"
+  },
+  {
+    "slug": "figma",
+    "source": "https://thesvg.org/icons/figma/default.svg",
+    "bytes": 1087,
+    "title": "Figma",
+    "license": "CC0-1.0",
+    "brand_url": "https://www.figma.com/"
+  },
+  {
+    "slug": "html5",
+    "source": "https://thesvg.org/icons/html5/default.svg",
+    "bytes": 382,
+    "title": "HTML5",
+    "license": "CC0-1.0",
+    "brand_url": "https://es.wikipedia.org/wiki/HTML5"
+  },
+  {
+    "slug": "css3",
+    "source": "https://thesvg.org/icons/css3/default.svg",
+    "bytes": 779,
+    "title": "Css3",
+    "license": "MIT",
+    "brand_url": null
+  },
+  {
+    "slug": "javascript",
+    "source": "https://thesvg.org/icons/javascript/default.svg",
+    "bytes": 1068,
+    "title": "JavaScript",
+    "license": "MIT",
+    "brand_url": "https://developer.mozilla.org/docs/Web/JavaScript"
+  },
+  {
+    "slug": "elementor",
+    "source": "https://thesvg.org/icons/elementor/default.svg",
+    "bytes": 588,
+    "title": "Elementor",
+    "license": "CC0-1.0",
+    "brand_url": "https://elementor.com/"
+  },
+  {
+    "slug": "wordpress",
+    "source": "https://thesvg.org/icons/wordpress/default.svg",
+    "bytes": 1512,
+    "title": "WordPress",
+    "license": "CC0-1.0",
+    "brand_url": "https://wordpress.org/"
+  },
+  {
+    "slug": "git",
+    "source": "https://thesvg.org/icons/git/default.svg",
+    "bytes": 484,
+    "title": "Git",
+    "license": "CC-BY-3.0",
+    "brand_url": "https://git-scm.com/"
+  },
+  {
+    "slug": "github",
+    "source": "https://thesvg.org/icons/github/default.svg",
+    "bytes": 941,
+    "title": "GitHub",
+    "license": "CC0-1.0",
+    "brand_url": "https://github.com/"
+  }
+]

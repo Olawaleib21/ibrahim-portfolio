@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#15191b" />
+    <meta
+      name="description"
+      content="About me — Ibrahim Olawale, web designer, web developer, and brand designer in Lagos."
+    />
+    <title>About me | Ibrahim Olawale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Work+Sans:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <script src="js/main.js" defer></script>
+    <script src="js/audio.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header" id="top">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="Ibrahim Olawale — homepage">
+          <span class="brand-mark" aria-hidden="true">
+            IO
+            <span class="brand-dot">.</span>
+          </span>
+          <span class="brand-name">
+            Ibrahim Olawale
+            <small>DESIGN / DEVELOPMENT</small>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          aria-label="Open navigation menu"
+          type="button"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" aria-current="page" href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a class="button button-nav" href="contact.html">Work with me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero hero-background about-background">
+        <div class="container hero-background-inner">
+          <div class="hero-content">
+            <h1>
+              Creative roots.
+              <br />
+              <em>Technical curiosity.</em>
+            </h1>
+            <p>
+              A designer’s eye, a developer’s curiosity, and a commitment to keep
+              learning.
+            </p>
+            <div class="hero-audio">
+              <h2>Short introduction</h2>
+              <p id="audio-pending" hidden>Listen to my introduction below.</p>
+              <audio
+                id="intro-audio"
+                controls
+                preload="metadata"
+                hidden
+                aria-label="Ibrahim Olawale’s audio introduction"
+              >
+                <source src="media/introduction.mp4" type="audio/mp4" />
+                Your browser does not support audio playback.
+              </audio>
+              <details>
+                <summary>Read audio transcript</summary>
+                <p class="transcript-note">
+                  Transcribed from the recording and lightly edited for readability.
+                </p>
+                <p>
+                  Hi, my name is Olawale Ibrahim, a student of Miva Open University.
+                  I&#39;m currently studying my bachelor&#39;s degree in Software
+                  Engineering.
+                </p>
+                <p>
+                  My journey began in design. Now I&#39;m building the technical skills
+                  to turn creative ideas into useful software.
+                </p>
+                <p>
+                  This portfolio brings together my professional experience and what
+                  I&#39;m learning in COS 106, Introduction to Web Technology. I&#39;ve
+                  used HTML, CSS, and JavaScript to create a responsive website with a
+                  project showcase, an interactive academic planner, and contact form
+                  validation.
+                </p>
+                <p>
+                  My featured projects include ProtenConnect, an applicant tracking
+                  system that I&#39;m building, alongside Keed and Prodan FX brand
+                  identity projects.
+                </p>
+                <p>
+                  Through my study, I&#39;m learning to connect thoughtful design into
+                  practical experience. Thank you for visiting my portfolio and being
+                  part of my learning journey.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container content-section about-layout">
+        <div
+          class="about-decoration learning-portrait design-portrait"
+          aria-hidden="true"
+        >
+          <span>
+            DESIGN.
+            <br />
+            BUILD.
+            <br />
+            EVOLVE.
+          </span>
+          <div class="about-rings"></div>
+        </div>
+        <div class="prose">
+          <h2>
+            A little about
+            <em>me.</em>
+          </h2>
+          <p>
+            I'm Ibrahim Olawale, a web designer, web developer, and brand designer based
+            in Lagos, Nigeria. My experience spans brand identities, responsive
+            websites, WordPress development, and website administration. I'm currently
+            studying B.Sc. Software Engineering at Miva Open University, building on my
+            design background to create useful digital products.
+          </p>
+          <p>
+            I aim to grow into a software engineer who combines web development, user
+            experience, and brand design to build useful digital products.
+          </p>
+          <a href="projects.html" class="text-link">Explore my work ↗</a>
+        </div>
+      </section>
+      <section class="section tools-band">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>
+                Education &amp;
+                <em>growth.</em>
+              </h2>
+            </div>
+            <p>
+              Building a stronger technical foundation alongside my creative practice.
+            </p>
+          </div>
+          <section
+            class="table-wrap"
+            tabindex="0"
+            aria-label="Education table — scroll horizontally on small screens"
+          >
+            <table>
+              <caption class="sr-only">Education details</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Programme</th>
+                  <th scope="col">Institution</th>
+                  <th scope="col">Level</th>
+                  <th scope="col">Period</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">B.Sc. Software Engineering</th>
+                  <td>Miva Open University</td>
+                  <td>100 Level</td>
+                  <td>2026–Present</td>
+                  <td>In progress</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </section>
+      <section class="container section">
+        <div class="section-head">
+          <div>
+            <h2>
+              Where I’ve
+              <em>contributed.</em>
+            </h2>
+          </div>
+          <p>
+            Experience across visual design, websites, and independent creative work.
+          </p>
+        </div>
+        <div class="experience-list experience-timeline">
+          <article class="experience-card timeline-entry">
+            <div class="timeline-employer">
+              <p class="company">Proten International</p>
+              <p class="experience-date">NOV 2024–PRESENT · FULL-TIME</p>
+            </div>
+            <div class="timeline-role">
+              <h3>Creative Editor</h3>
+              <p>Lagos State, Nigeria · Hybrid</p>
+              <p>Working across graphic design and web design.</p>
+            </div>
+          </article>
+          <article class="experience-card timeline-entry">
+            <div class="timeline-employer">
+              <p class="company">Wale Design Co.</p>
+              <p class="experience-date">2022–PRESENT · FREELANCE</p>
+            </div>
+            <div class="timeline-role">
+              <h3>Brand Designer</h3>
+              <p>Remote</p>
+              <p>
+                Developing brand identities and WordPress websites aligned with client
+                goals. Leading discovery meetings, creating campaign visuals, and using
+                a Notion client portal to support project collaboration.
+              </p>
+            </div>
+          </article>
+          <article class="experience-card timeline-entry">
+            <div class="timeline-employer">
+              <p class="company">Movam Technologies Limited</p>
+              <p class="experience-date">OCT 2023–SEP 2024 · CONTRACT</p>
+            </div>
+            <div class="timeline-role">
+              <h3>Graphic Designer</h3>
+              <p>Lagos State, Nigeria · On-site</p>
+              <p>
+                Created marketing visuals and website layouts, collaborated on
+                campaigns, and helped maintain consistent brand identities. Work
+                included graphic design and video editing.
+              </p>
+            </div>
+          </article>
+          <article class="experience-card timeline-entry">
+            <div class="timeline-employer">
+              <p class="company">Wildfire Business Solution</p>
+              <p class="experience-date">MAR 2022–NOV 2023 · ONSITE</p>
+            </div>
+            <div class="timeline-role">
+              <h3>Graphic Designer</h3>
+              <p>
+                Researching briefs, developing branding concepts, and producing digital
+                and print materials in collaboration with cross-functional teams.
+              </p>
+              <p>
+                <strong>Also: Junior WordPress Developer · Aug–Nov 2023.</strong>
+                Developed and maintained responsive WordPress sites with Elementor,
+                including updates, performance, and SEO.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section explore-band">
+        <div class="container two-columns">
+          <div class="prose">
+            <h2>
+              Skills with
+              <em>purpose.</em>
+            </h2>
+            <ul class="skill-pills">
+              <li>Web design</li>
+              <li>Web development</li>
+              <li>Brand identity</li>
+              <li>UI/UX design</li>
+              <li>WordPress &amp; Elementor</li>
+              <li>HTML, CSS &amp; JavaScript</li>
+              <li>Website maintenance &amp; SEO</li>
+              <li>Software engineering · Learning</li>
+            </ul>
+            <p>
+              Tools include Figma, Illustrator, Photoshop, CorelDRAW, InDesign,
+              WordPress, Notion, and ClickUp.
+            </p>
+          </div>
+          <div class="prose">
+            <h2>
+              What keeps me
+              <em>curious.</em>
+            </h2>
+            <p>
+              Outside work and study, I enjoy learning new things, exploring fresh
+              ideas, and finding creative ways to solve problems. Art and music inspire
+              me, while spending time observing nature gives me space to reflect and
+              recharge.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="cta-wrap container" aria-labelledby="cta-title">
+        <div class="cta-banner reveal">
+          <div class="cta-motif" aria-hidden="true"></div>
+          <div class="cta-copy">
+            <h2 id="cta-title">
+              Let's create something
+              <em>meaningful.</em>
+            </h2>
+            <p>
+              Have a project, collaboration, or interesting opportunity in mind? I'd
+              love to hear what you're working on.
+            </p>
+          </div>
+          <a href="contact.html" class="button button-light">Work with me</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-intro">
+          <a href="index.html" class="footer-brand">
+            IO
+            <span>.</span>
+            <small>Ibrahim Olawale</small>
+          </a>
+          <p>
+            Web design, web development, and brand identities. Thoughtful ideas, brought
+            to life.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/olawaleibrahim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+            <a
+              href="https://www.behance.net/olawale_ib"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Behance ↗
+            </a>
+            <a
+              href="https://github.com/Olawaleib21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Academic Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Selected work</h3>
+          <ul>
+            <li><a href="projects.html#protenconnect">ProtenConnect</a></li>
+            <li><a href="projects.html#keed">Keed</a></li>
+            <li><a href="projects.html#prodan-fx">Prodan FX</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Let's connect</h3>
+          <p>Lagos, Nigeria</p>
+          <a class="footer-contact" href="mailto:olawale_ib21@yahoo.com">
+            olawale_ib21@yahoo.com
+          </a>
+          <p>Have a project or collaboration in mind? I'd love to hear about it.</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>
+          ©
+          <span id="year">2026</span>
+          Ibrahim Olawale. All rights reserved.
+        </small>
+        <small>COS 106 · Miva Open University</small>
+      </div>
+    </footer>
+  </body>
+</html>

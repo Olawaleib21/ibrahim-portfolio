@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#15191b" />
+    <meta
+      name="description"
+      content="Contact — Ibrahim Olawale, web designer, web developer, and brand designer in Lagos."
+    />
+    <title>Contact | Ibrahim Olawale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Work+Sans:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <script src="js/main.js" defer></script>
+    <script src="js/portfolio-core.js" defer></script>
+    <script src="js/contact.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header" id="top">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="Ibrahim Olawale — homepage">
+          <span class="brand-mark" aria-hidden="true">
+            IO
+            <span class="brand-dot">.</span>
+          </span>
+          <span class="brand-name">
+            Ibrahim Olawale
+            <small>DESIGN / DEVELOPMENT</small>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          aria-label="Open navigation menu"
+          type="button"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li>
+              <a class="active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a class="button button-nav" href="contact.html">Work with me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="contact-photo-hero" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-photo-copy">
+            <h1 id="contact-title">
+              Good things start
+              <br />
+              <em>with a hello.</em>
+            </h1>
+            <p>
+              Have a project, a collaboration, or a question? Here’s where to find me.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container contact-layout contact-overlap-layout">
+        <div class="contact-info">
+          <p>
+            I work across web design, development, and brand identity. Tell me what
+            you’re thinking about.
+          </p>
+          <dl class="contact-details">
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:olawale_ib21@yahoo.com">olawale_ib21@yahoo.com ↗</a>
+            </dd>
+            <dt>Based in</dt>
+            <dd>Lagos, Nigeria</dd>
+            <dt>Find me online</dt>
+            <dd class="contact-social-links">
+              <a
+                href="https://www.linkedin.com/in/olawaleibrahim"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn ↗
+              </a>
+              <a
+                href="https://www.behance.net/olawale_ib"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Behance ↗
+              </a>
+              <a
+                href="https://github.com/Olawaleib21"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub ↗
+              </a>
+            </dd>
+          </dl>
+        </div>
+        <div class="form-panel contact-floating-form">
+          <h2>
+            Say
+            <em>hello.</em>
+          </h2>
+          <form id="contact-form" novalidate>
+            <div class="field">
+              <label class="sr-only" for="contact-name">
+                Name
+                <span class="required-label">(required)</span>
+              </label>
+              <input
+                id="contact-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+                maxlength="120"
+                placeholder="Your full name"
+                aria-describedby="name-error"
+              />
+              <small class="field-error" id="name-error"></small>
+            </div>
+            <div class="field">
+              <label class="sr-only" for="contact-email">
+                Email address
+                <span class="required-label">(required)</span>
+              </label>
+              <input
+                id="contact-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                maxlength="254"
+                placeholder="Email address"
+                aria-describedby="email-error"
+              />
+              <small class="field-error" id="email-error"></small>
+            </div>
+            <div class="field">
+              <label for="contact-phone">
+                Phone number
+                <span class="required-label">(required)</span>
+              </label>
+              <input
+                id="contact-phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                inputmode="numeric"
+                required
+                maxlength="30"
+                placeholder="Phone number"
+                aria-describedby="phone-error phone-hint"
+              />
+              <small id="phone-hint" class="field-hint">
+                Digits only. Do not include spaces, + signs, or hyphens.
+              </small>
+              <small class="field-error" id="phone-error"></small>
+            </div>
+            <div class="field">
+              <label class="sr-only" for="contact-message">
+                Message
+                <span class="required-label">(required)</span>
+              </label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                required
+                maxlength="3000"
+                placeholder="Your message"
+                aria-describedby="message-error"
+              ></textarea>
+              <small class="field-error" id="message-error"></small>
+            </div>
+            <button class="button button-dark" type="submit">Validate message</button>
+            <p id="contact-status" role="status" aria-live="polite"></p>
+            <p class="contact-demo-note">
+              <strong>Assessment demo.</strong>
+              This form checks your entries only. It does not send or store your
+              message. To reach me, use the email link.
+            </p>
+          </form>
+          <noscript>
+            <p class="notice notice-warning">
+              JavaScript is required for this validation demo. Use the email link to
+              contact me.
+            </p>
+          </noscript>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-intro">
+          <a href="index.html" class="footer-brand">
+            IO
+            <span>.</span>
+            <small>Ibrahim Olawale</small>
+          </a>
+          <p>
+            Web design, web development, and brand identities. Thoughtful ideas, brought
+            to life.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/olawaleibrahim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+            <a
+              href="https://www.behance.net/olawale_ib"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Behance ↗
+            </a>
+            <a
+              href="https://github.com/Olawaleib21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Academic Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Selected work</h3>
+          <ul>
+            <li><a href="projects.html#protenconnect">ProtenConnect</a></li>
+            <li><a href="projects.html#keed">Keed</a></li>
+            <li><a href="projects.html#prodan-fx">Prodan FX</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Let's connect</h3>
+          <p>Lagos, Nigeria</p>
+          <a class="footer-contact" href="mailto:olawale_ib21@yahoo.com">
+            olawale_ib21@yahoo.com
+          </a>
+          <p>Have a project or collaboration in mind? I'd love to hear about it.</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>
+          ©
+          <span id="year">2026</span>
+          Ibrahim Olawale. All rights reserved.
+        </small>
+        <small>COS 106 · Miva Open University</small>
+      </div>
+    </footer>
+  </body>
+</html>
