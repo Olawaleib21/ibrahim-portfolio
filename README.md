@@ -135,7 +135,12 @@ Browser checks require Playwright and installed Google Chrome and generate verif
 
 ## Publishing and submission
 
-The site has not yet been published. Repository URL and hosted website URL remain pending.
+Published and checked on 14 November 2026.
+
+- Website: https://olawaleib21.github.io/ibrahim-portfolio/
+- Repository: https://github.com/Olawaleib21/ibrahim-portfolio
+
+Live Chrome checks passed for all five pages, local styles/scripts/images, mobile navigation at 375px without page overflow, audio playback, planner actions and persistence, and contact validation with truthful demo feedback. No JavaScript errors were captured.
 
 1. Use this folder's contents as the repository root so index.html is directly at the root.
 2. Commit only the five HTML pages, css/, js/, images/, media/ and README.md. Review the staged file list before pushing.
@@ -144,7 +149,7 @@ The site has not yet been published. Repository URL and hosted website URL remai
 5. Verify the public URL, including the repository subpath: all pages, navigation, images, audio, external links, keyboard access, phone layouts, planner persistence and contact validation.
 6. Add the verified repository URL and hosted website URL to the separate assessment PDF. Submit the PDF and both links by 15 November 2026.
 
-The contact form remains a validation demonstration and planner storage remains browser-local after publishing. External links were manually checked by the student on 14 November 2026; hosted-site verification is still pending.
+The contact form remains a validation demonstration and planner storage remains browser-local after publishing. External links were manually checked by the student on 14 November 2026; the hosted site was also checked on 14 November 2026.
 
 ## Separate project report
 
@@ -154,7 +159,7 @@ The 21-page report is stored outside the repository at:
 ../portfolio-private-archive/docs/Ibrahim-Olawale-COS106-Project-Report.pdf
 ```
 
-It documents assessment coverage, the cleaned project structure, design identity/colour/typography/spacing, shared header/CTA/footer screenshots, the five pages, syntax-highlighted JavaScript excerpts, testing, performance, accessibility, publishing and references. It is submitted separately and will not be published to GitHub.
+It documents assessment coverage, the cleaned project structure, design identity/colour/typography/spacing, shared header/CTA/footer screenshots, the five pages, syntax-highlighted JavaScript excerpts, testing, performance, accessibility, publishing and references. It is submitted separately and is not published to GitHub. The verified website and repository URLs have been added to it.
 
 Report-generation and verification scripts are in the private archive's docs/ folder. They read current website code from this folder and report assets/evidence from the archive. Regeneration requires Python with ReportLab, Pygments, pypdfium2, pypdf, pdfplumber and Pillow, plus the Windows fonts referenced by the scripts. Review rendered pages and pagination after changes.
 
